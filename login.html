@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Registrate</title>
+        <link rel="stylesheet" href="/css/estilosLogin.css"> 
+    </head>
+    <body>
+        <div class="contenedor head">
+        <h1>Unete a nosotros</h1>
+        <p>Todos tus datos estaran protegidos por nosotros</p>
+        </div>
+
+        <div class="contenedor login">
+
+            <form name="formulario" method="post" action="procesarDatos.php">
+                <fieldset>
+                  <legend>Datos generales</legend>
+                  <p>ID: 
+                    <input type="number" name="nomUS" id="textfieldID"/>
+                </p>
+                  <p>Nombre: 
+                      <input type="text" name="nomUS" id="textfieldNom"/>
+                  </p>
+                  <p>Apellido: 
+                      <input type="text" name="apUS" id="textfieldAp"/>
+                  </p>
+                  <p>Sexo: 
+                    <input type="radio" name="size" id="size_1">
+                    <label for="size_1">Hombre</label>
+                    <input type="radio" name="size" id="size_2">
+                    <label for="size_2">Mujer</label>
+                  </p>
+                  <p>Fecha de nacimiento: 
+                    <input type="date" name="fnUS" id="textfieldFn"/>
+                </p>
+                <p>Dirección: 
+                    <input type="text" name="direccionUS" id="textfield"/>
+                </p>
+                <p>Ciudad: 
+                    <input type="text" name="ciudadUS" id="textfield"/>
+                </p>
+                <p>Codigo postal: 
+                    <input type="text" name=" $cpUs" id="textfield"/>
+                </p>
+                <button type="submit">Enviar</button>
+                
+
+                </fieldset>
+              </form>
+
+        </div>
+
+
+        <p><a href="index.html">Volver</a> a la pagina anterior.</p>
+    </body>
+</html>
